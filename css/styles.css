@@ -36,12 +36,33 @@ body {
 }
 
 .page-header {
+  padding-top: 25px;
 	padding-left: 72px;
+  background-color: #1c4254;
+  border-radius: 5px;
+  height:300px;
+  color: white;
+}
+
+.page-header span{
+  color: red;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.onlinehelp{
+  padding-left: 10px;
 }
 
 .course-table {
 	width:700px;
 	padding: 20px;
+}
+
+table th{
+  font-weight: bold;
+  background-color: #1c4254;
+  color: white;
 }
 
 .prof-table {

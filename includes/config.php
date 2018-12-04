@@ -14,8 +14,10 @@ ChromePhp::log('This is just a log message');
 ChromePhp::warn("This is a warning message " ) ;
 ChromePhp::error("This is an error message" ) ;
 ChromePhp::log($_SERVER);
-
+ 
 foreach ($_SERVER as $key => $value) {
     ChromePhp::log($key, $value);
 }
+
 ?>
+
