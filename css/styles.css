@@ -1,0 +1,57 @@
+body {
+ 	font: 14px sans-serif;
+ 	text-align: center;
+ 	padding:20px 20px;
+ }
+
+@media only screen and (max-width: 480px) {
+    /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+    }
+}
+.results tr[visible='false'],
+
+.no-result{
+  	display:none;
+}
+
+.results tr[visible='true']{
+  	display:table-row;
+}
+
+.header {
+	margin: auto;
+}
+
+.wrapper {
+	width: 350px;
+	padding: 20px;
+}
+
+.nav-bar {
+	padding: 20px;
+	padding-left: 72px;
+}
+
+.page-header {
+	padding-left: 72px;
+}
+
+.course-table {
+	width:700px;
+	padding: 20px;
+}
+
+.prof-table {
+	width: 500px;
+	padding: 20px;
+}
+.onlineHelp {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  display: inline-block;
+}
